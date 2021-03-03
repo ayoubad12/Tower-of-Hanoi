@@ -25,9 +25,9 @@ to do that we need to take the discs above it to the second tower ,so the third 
 #### stage2:
 now we need to transfer the rest of the discs to the third tower, the rest is 'n-1' discs, so we need to make X(n-1) transition.
 
-here is an image that shows the exact steps:
+here is an image that shows the exact steps:   
 ![](images%20for%20github/tower%20of%20honai-mine.jpg)
-
+   
 
 ### in conclusion 
 the relation is : 
