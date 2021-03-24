@@ -1,5 +1,5 @@
 # Tower-of-Hanoi
-# Tower-of-Hanoi
+
 ### briefly: 
 
 There are three towers. The objective of the game is to move all the disks over to third tower 
@@ -31,8 +31,10 @@ here is an image that shows the exact steps:
 
 ### in conclusion 
 the relation is : 
-## X(n)= 2*X(n-1)+1
+### **X(n)= 2*X(n-1)+1**
+
 with n an intiger greater than 0.
+
 
 #### the code:  
 now we know this relation , and we know that the transition needed for n=1 disc is X(1)=1 ,and this an axiom..
@@ -44,3 +46,12 @@ X(4)=2*X(3)+1
 X(5)=2*X(4)+1  
 ....  
 X(n)=2*X(n-1)+1  
+
+or we can make it even simpler by using some simple math...
+
+## adding a little bit of math :
+by applying what we know about the "Arithmetico–geometric sequence" we can conclude a really simple formula, the formula is:
+
+
+##  **X(n)= 2^n - 1**
+this says : to move "n" disk to the third tower, you need to make  "2^n-1" transition. 
